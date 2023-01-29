@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dia2.css">
+    <title>Perguntas</title>
+</head>
+<body>
+    <header>
+        <h1>Perguntando</h1>
+    </header>
+    <main>
+        <section>
+            <p>Qual o seu nome?
+                <input type="text" name="pede-nome" id="pede-nome">
+            </p>
+            <p>Quantos anos você tem?
+                <input type="number" name="pede-idade" id="pede-idade">
+            </p>
+            <p>Qual linguagem de programação você está estudando?
+                <input type="text" name="pede-lingua" id="pede-lingua">
+            </p>
+            <p id="verificar"><input type="button" value="Verificar" onclick="verificar()"></p>
+        </section>
+        <div id="res">
+        </div>
+
+        <div id="div-perg">
+            <p><input type="button" value="Perguntar" onclick="perguntar()"></p>
+        </div>
+        <div id="res_dois">
+
+        </div>
+    </main>
+    <script src="dia2.js"></script>
+
+</body>
+</html>
