@@ -1,0 +1,42 @@
+body{
+    background: black;
+}
+header{
+    width: 500px;
+    margin: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+main{
+    width: 500px;
+    margin: auto;
+}
+main p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+main p a{
+    color: yellow;
+    text-decoration: none;
+}
+main p a:hover{
+    text-decoration: underline;
+}
+section{
+    width: 500px;
+    margin: auto;
+}
+section p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#frase{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
